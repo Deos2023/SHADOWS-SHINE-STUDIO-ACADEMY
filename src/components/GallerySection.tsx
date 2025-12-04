@@ -3,23 +3,31 @@ import bridal1 from "@/assets/gallery/bridal-1.jpeg";
 import bridal2 from "@/assets/gallery/bridal-2.png";
 import bridal3 from "@/assets/gallery/bridal-3.png";
 import bridal4 from "@/assets/gallery/bridal-4.png";
+import bridal5 from "@/assets/gallery/bridal-5.jpeg";
 import nails1 from "@/assets/gallery/nails-1.jpeg";
 import nails2 from "@/assets/gallery/nails-2.jpeg";
 import lashes from "@/assets/gallery/lashes.jpeg";
+import lashLift from "@/assets/gallery/lash-lift.jpg";
 import makeupArt from "@/assets/gallery/makeup-art.jpeg";
+import lipBlush from "@/assets/gallery/lip-blush.jpg";
+import nanoBrows from "@/assets/gallery/nano-brows.jpg";
 
 const galleryItems = [
+  { src: lipBlush, category: "Lip Blush", title: "Before • After • Healed" },
+  { src: nanoBrows, category: "Brows", title: "Nano Brows Perfection" },
   { src: bridal2, category: "Bridal", title: "Bengali Bridal Elegance" },
+  { src: lashLift, category: "Lashes", title: "Lash Lift & Extensions" },
   { src: bridal3, category: "Bridal", title: "Traditional Beauty" },
   { src: nails2, category: "Nail Art", title: "Mermaid Shell Design" },
   { src: lashes, category: "Lashes", title: "Lash Extension Styles" },
   { src: bridal1, category: "Bridal", title: "Evening Glam" },
   { src: bridal4, category: "Bridal", title: "Radiant Bride" },
+  { src: bridal5, category: "Bridal", title: "Golden Hour Beauty" },
   { src: nails1, category: "Nail Art", title: "Soft Pink Elegance" },
   { src: makeupArt, category: "Creative", title: "Fantasy Makeup Art" },
 ];
 
-const categories = ["All", "Bridal", "Nail Art", "Lashes", "Creative"];
+const categories = ["All", "Bridal", "Lip Blush", "Brows", "Lashes", "Nail Art", "Creative"];
 
 export const GallerySection = () => {
   const [activeCategory, setActiveCategory] = useState("All");
