@@ -1,5 +1,5 @@
 import { Award, Users, Clock, Heart } from "lucide-react";
-import logo from "@/assets/logo.png";
+import aboutImage from "@/assets/about-image.jpeg";
 
 const highlights = [
   { icon: Award, label: "Certified Cosmetologist", value: "Professional" },
@@ -58,9 +58,9 @@ export const AboutSection = () => {
               {/* Main image area */}
               <div className="relative glass-card p-8 rounded-3xl gold-glow">
                 <img 
-                  src={logo} 
-                  alt="Shadows & Shine Studio" 
-                  className="w-full h-auto rounded-2xl"
+                  src={aboutImage} 
+                  alt="Shadows & Shine Studio Services" 
+                  className="w-full h-auto rounded-2xl object-cover"
                 />
                 
                 {/* Quote card */}
