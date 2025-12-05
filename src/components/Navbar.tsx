@@ -20,10 +20,18 @@ export const Navbar = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <a href="#home" className="flex items-center gap-3">
-            <img src={logo} alt="Shadows & Shine" className="h-14 w-14 object-contain" />
+            <img
+              src={logo}
+              alt="Shadows & Shine"
+              className="h-14 w-14 object-contain"
+            />
             <div className="hidden sm:block">
-              <span className="font-script text-2xl text-primary">Shadows & Shine</span>
-              <p className="text-xs text-muted-foreground tracking-widest">STUDIO & ACADEMY</p>
+              <span className="font-script text-2xl text-primary">
+                Shadows & Shine
+              </span>
+              <p className="text-xs text-muted-foreground tracking-widest">
+                STUDIO & ACADEMY
+              </p>
             </div>
           </a>
 
@@ -42,13 +50,18 @@ export const Navbar = () => {
 
           {/* CTA Button */}
           <div className="hidden md:flex items-center gap-4">
-            <a href="tel:7003306599" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors">
+            <a
+              href="tel:7003306599"
+              className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors"
+            >
               <Phone className="w-4 h-4" />
               <span>7003306599</span>
             </a>
-            <Button variant="gold" size="sm">
-              Book Now
-            </Button>
+            <a href="#contact">
+              <Button variant="gold" className="w-full">
+                Book Now
+              </Button>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -75,9 +88,11 @@ export const Navbar = () => {
               </a>
             ))}
             <div className="pt-4 mt-4 border-t border-border/30">
-              <Button variant="gold" className="w-full">
-                Book Now
-              </Button>
+              <a href="#contact">
+                <Button variant="gold" className="w-full">
+                  Book Now
+                </Button>
+              </a>
             </div>
           </div>
         )}
