@@ -43,6 +43,13 @@ const services = [
     description: "Advanced SPMU techniques including ombre brows, eyebrow lamination, and eyebrow tinting for effortless everyday beauty.",
     benefits: ["Time-saving", "Sweat & water proof", "Natural enhancement"],
   },
+  {
+    icon: Star,
+    title: "Mole & Tag Removal",
+    tagline: "Flawless skin, naturally",
+    description: "Safe and effective removal of unwanted moles, skin tags, and minor blemishes using advanced techniques for clear, smooth skin.",
+    benefits: ["Non-invasive procedure", "Minimal downtime", "Professional care"],
+  },
 ];
 
 export const ServicesSection = () => {
