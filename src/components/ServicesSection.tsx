@@ -50,6 +50,20 @@ const services = [
     description: "Safe and effective removal of unwanted moles, skin tags, and minor blemishes using advanced techniques for clear, smooth skin.",
     benefits: ["Non-invasive procedure", "Minimal downtime", "Professional care"],
   },
+  {
+    icon: Eye,
+    title: "Eyelash Extensions",
+    tagline: "Dramatic eyes, effortless beauty",
+    description: "Luxurious lash extensions for fuller, longer, and more voluminous lashes. Choose from classic, volume, or hybrid styles for your perfect look.",
+    benefits: ["Customizable styles", "Lightweight & comfortable", "Instant volume"],
+  },
+  {
+    icon: Heart,
+    title: "Lip Neutralisation",
+    tagline: "Perfect your natural canvas",
+    description: "Color correction treatment to neutralize dark or uneven lip pigmentation, creating the perfect base for lip blush or restoring natural lip tone.",
+    benefits: ["Corrects dark lips", "Even lip tone", "Long-lasting results"],
+  },
 ];
 
 export const ServicesSection = () => {
