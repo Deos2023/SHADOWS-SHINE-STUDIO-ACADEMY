@@ -70,7 +70,7 @@ const galleryItems = [
   { src: makeupArt, category: "Creative", title: "Fantasy Makeup Art", type: "image" as const },
   
   // WhatsApp Images - categorized by content
-  { src: whatsappImage1, category: "Bridal", title: "Traditional Henna Design", type: "image" as const },
+  // { src: whatsappImage1, category: "Bridal", title: "Traditional Henna Design", type: "image" as const },
   { src: whatsappImage2, category: "Bridal", title: "Gold & Maroon Ensemble", type: "image" as const },
   { src: whatsappImage3, category: "Makeup", title: "Professional Makeup Application", type: "image" as const },
   { src: whatsappImage4, category: "Bridal", title: "Jewelry & Accessories", type: "image" as const },
